@@ -14,6 +14,7 @@
 		AA8617352C66A61400712E27 /* InstagramCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8617342C66A61400712E27 /* InstagramCloneTests.swift */; };
 		AA86173F2C66A61400712E27 /* InstagramCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA86173E2C66A61400712E27 /* InstagramCloneUITests.swift */; };
 		AA8617412C66A61400712E27 /* InstagramCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8617402C66A61400712E27 /* InstagramCloneUITestsLaunchTests.swift */; };
+		AA86175C2C66A9F200712E27 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA86175B2C66A9F200712E27 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		AA86173A2C66A61400712E27 /* InstagramCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstagramCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA86173E2C66A61400712E27 /* InstagramCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCloneUITests.swift; sourceTree = "<group>"; };
 		AA8617402C66A61400712E27 /* InstagramCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA86175B2C66A9F200712E27 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 		AA8617572C66A7E700712E27 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				AA86175B2C66A9F200712E27 /* MainTabView.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 			files = (
 				AA8617262C66A61300712E27 /* ContentView.swift in Sources */,
 				AA8617242C66A61300712E27 /* InstagramCloneApp.swift in Sources */,
+				AA86175C2C66A9F200712E27 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
