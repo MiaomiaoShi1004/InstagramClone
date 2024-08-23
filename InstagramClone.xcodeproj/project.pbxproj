@@ -19,6 +19,7 @@
 		AA8617612C66B66D00712E27 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8617602C66B66D00712E27 /* UserStatView.swift */; };
 		AA8617632C66BD0600712E27 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8617622C66BD0500712E27 /* FeedView.swift */; };
 		AA8617652C66BD0F00712E27 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8617642C66BD0F00712E27 /* FeedCell.swift */; };
+		AA8617672C66C92900712E27 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8617662C66C92900712E27 /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		AA8617602C66B66D00712E27 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		AA8617622C66BD0500712E27 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		AA8617642C66BD0F00712E27 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		AA8617662C66C92900712E27 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 		AA8617512C66A7AF00712E27 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				AA8617662C66C92900712E27 /* SearchView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				AA8617262C66A61300712E27 /* ContentView.swift in Sources */,
 				AA86175E2C66AB5000712E27 /* ProfileView.swift in Sources */,
 				AA8617242C66A61300712E27 /* InstagramCloneApp.swift in Sources */,
+				AA8617672C66C92900712E27 /* SearchView.swift in Sources */,
 				AA8617612C66B66D00712E27 /* UserStatView.swift in Sources */,
 				AA8617632C66BD0600712E27 /* FeedView.swift in Sources */,
 				AA86175C2C66A9F200712E27 /* MainTabView.swift in Sources */,
