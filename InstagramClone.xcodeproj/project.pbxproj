@@ -22,6 +22,7 @@
 		AA8617672C66C92900712E27 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8617662C66C92900712E27 /* SearchView.swift */; };
 		AAC062CE2C79386000D57BB9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062CD2C79386000D57BB9 /* LoginView.swift */; };
 		AAC062D02C7A2FAA00D57BB9 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062CF2C7A2FAA00D57BB9 /* AddEmailView.swift */; };
+		AAC062D22C7A348700D57BB9 /* IGTestFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062D12C7A348700D57BB9 /* IGTestFieldModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		AA8617662C66C92900712E27 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		AAC062CD2C79386000D57BB9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		AAC062CF2C7A2FAA00D57BB9 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
+		AAC062D12C7A348700D57BB9 /* IGTestFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGTestFieldModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				AA8617602C66B66D00712E27 /* UserStatView.swift */,
+				AAC062D12C7A348700D57BB9 /* IGTestFieldModifier.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 				AAC062D02C7A2FAA00D57BB9 /* AddEmailView.swift in Sources */,
 				AA8617672C66C92900712E27 /* SearchView.swift in Sources */,
 				AA8617612C66B66D00712E27 /* UserStatView.swift in Sources */,
+				AAC062D22C7A348700D57BB9 /* IGTestFieldModifier.swift in Sources */,
 				AA8617632C66BD0600712E27 /* FeedView.swift in Sources */,
 				AA86175C2C66A9F200712E27 /* MainTabView.swift in Sources */,
 			);
