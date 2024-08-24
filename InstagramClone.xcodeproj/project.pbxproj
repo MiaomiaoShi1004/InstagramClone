@@ -20,6 +20,7 @@
 		AA8617632C66BD0600712E27 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8617622C66BD0500712E27 /* FeedView.swift */; };
 		AA8617652C66BD0F00712E27 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8617642C66BD0F00712E27 /* FeedCell.swift */; };
 		AA8617672C66C92900712E27 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8617662C66C92900712E27 /* SearchView.swift */; };
+		AAC062CE2C79386000D57BB9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062CD2C79386000D57BB9 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		AA8617622C66BD0500712E27 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		AA8617642C66BD0F00712E27 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		AA8617662C66C92900712E27 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		AAC062CD2C79386000D57BB9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 		AA86174F2C66A79700712E27 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				AAC062CD2C79386000D57BB9 /* LoginView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -382,6 +385,7 @@
 				AA8617652C66BD0F00712E27 /* FeedCell.swift in Sources */,
 				AA8617262C66A61300712E27 /* ContentView.swift in Sources */,
 				AA86175E2C66AB5000712E27 /* ProfileView.swift in Sources */,
+				AAC062CE2C79386000D57BB9 /* LoginView.swift in Sources */,
 				AA8617242C66A61300712E27 /* InstagramCloneApp.swift in Sources */,
 				AA8617672C66C92900712E27 /* SearchView.swift in Sources */,
 				AA8617612C66B66D00712E27 /* UserStatView.swift in Sources */,
