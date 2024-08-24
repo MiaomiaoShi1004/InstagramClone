@@ -15,5 +15,8 @@ struct IGTextFieldModifier: ViewModifier {
             .background(Color(.systemGray6))
             .cornerRadius(10)
             .padding(.horizontal, 24)
+            .padding(.top)
+
     }
 }
+
