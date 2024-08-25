@@ -26,6 +26,8 @@
 		AAC062D42C7A6F0E00D57BB9 /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062D32C7A6F0E00D57BB9 /* CreateUsernameView.swift */; };
 		AAC062D62C7A82FB00D57BB9 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062D52C7A82FB00D57BB9 /* CreatePasswordView.swift */; };
 		AAC062D82C7A8CF200D57BB9 /* CompleteSignUPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062D72C7A8CF200D57BB9 /* CompleteSignUPView.swift */; };
+		AAC062DA2C7B23A800D57BB9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062D92C7B23A700D57BB9 /* User.swift */; };
+		AAC062DC2C7B712500D57BB9 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062DB2C7B712500D57BB9 /* CurrentUserProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		AAC062D32C7A6F0E00D57BB9 /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameView.swift; sourceTree = "<group>"; };
 		AAC062D52C7A82FB00D57BB9 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
 		AAC062D72C7A8CF200D57BB9 /* CompleteSignUPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUPView.swift; sourceTree = "<group>"; };
+		AAC062D92C7B23A700D57BB9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AAC062DB2C7B712500D57BB9 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				AA86175D2C66AB5000712E27 /* ProfileView.swift */,
+				AAC062DB2C7B712500D57BB9 /* CurrentUserProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -247,6 +252,7 @@
 		AA8617592C66A81400712E27 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AAC062D92C7B23A700D57BB9 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -402,9 +408,11 @@
 				AA86175E2C66AB5000712E27 /* ProfileView.swift in Sources */,
 				AAC062CE2C79386000D57BB9 /* LoginView.swift in Sources */,
 				AA8617242C66A61300712E27 /* InstagramCloneApp.swift in Sources */,
+				AAC062DC2C7B712500D57BB9 /* CurrentUserProfileView.swift in Sources */,
 				AAC062D02C7A2FAA00D57BB9 /* AddEmailView.swift in Sources */,
 				AAC062D42C7A6F0E00D57BB9 /* CreateUsernameView.swift in Sources */,
 				AA8617672C66C92900712E27 /* SearchView.swift in Sources */,
+				AAC062DA2C7B23A800D57BB9 /* User.swift in Sources */,
 				AA8617612C66B66D00712E27 /* UserStatView.swift in Sources */,
 				AAC062D22C7A348700D57BB9 /* IGTextFieldModifier.swift in Sources */,
 				AA8617632C66BD0600712E27 /* FeedView.swift in Sources */,
