@@ -28,6 +28,9 @@
 		AAC062D82C7A8CF200D57BB9 /* CompleteSignUPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062D72C7A8CF200D57BB9 /* CompleteSignUPView.swift */; };
 		AAC062DA2C7B23A800D57BB9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062D92C7B23A700D57BB9 /* User.swift */; };
 		AAC062DC2C7B712500D57BB9 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062DB2C7B712500D57BB9 /* CurrentUserProfileView.swift */; };
+		AAC062DE2C7B7EA200D57BB9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062DD2C7B7EA200D57BB9 /* Post.swift */; };
+		AAC062E02C7BB70200D57BB9 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062DF2C7BB70200D57BB9 /* PostGridView.swift */; };
+		AAC062E22C7D1B2C00D57BB9 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062E12C7D1B2C00D57BB9 /* ProfileHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,9 @@
 		AAC062D72C7A8CF200D57BB9 /* CompleteSignUPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUPView.swift; sourceTree = "<group>"; };
 		AAC062D92C7B23A700D57BB9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AAC062DB2C7B712500D57BB9 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		AAC062DD2C7B7EA200D57BB9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		AAC062DF2C7BB70200D57BB9 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		AAC062E12C7D1B2C00D57BB9 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +227,7 @@
 			children = (
 				AA86175D2C66AB5000712E27 /* ProfileView.swift */,
 				AAC062DB2C7B712500D57BB9 /* CurrentUserProfileView.swift */,
+				AAC062E12C7D1B2C00D57BB9 /* ProfileHeaderView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -253,6 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				AAC062D92C7B23A700D57BB9 /* User.swift */,
+				AAC062DD2C7B7EA200D57BB9 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -269,6 +277,7 @@
 			children = (
 				AA8617602C66B66D00712E27 /* UserStatView.swift */,
 				AAC062D12C7A348700D57BB9 /* IGTextFieldModifier.swift */,
+				AAC062DF2C7BB70200D57BB9 /* PostGridView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -411,9 +420,12 @@
 				AAC062DC2C7B712500D57BB9 /* CurrentUserProfileView.swift in Sources */,
 				AAC062D02C7A2FAA00D57BB9 /* AddEmailView.swift in Sources */,
 				AAC062D42C7A6F0E00D57BB9 /* CreateUsernameView.swift in Sources */,
+				AAC062E02C7BB70200D57BB9 /* PostGridView.swift in Sources */,
 				AA8617672C66C92900712E27 /* SearchView.swift in Sources */,
+				AAC062E22C7D1B2C00D57BB9 /* ProfileHeaderView.swift in Sources */,
 				AAC062DA2C7B23A800D57BB9 /* User.swift in Sources */,
 				AA8617612C66B66D00712E27 /* UserStatView.swift in Sources */,
+				AAC062DE2C7B7EA200D57BB9 /* Post.swift in Sources */,
 				AAC062D22C7A348700D57BB9 /* IGTextFieldModifier.swift in Sources */,
 				AA8617632C66BD0600712E27 /* FeedView.swift in Sources */,
 				AAC062D82C7A8CF200D57BB9 /* CompleteSignUPView.swift in Sources */,
