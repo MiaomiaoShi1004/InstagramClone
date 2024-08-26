@@ -31,6 +31,7 @@
 		AAC062DE2C7B7EA200D57BB9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062DD2C7B7EA200D57BB9 /* Post.swift */; };
 		AAC062E02C7BB70200D57BB9 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062DF2C7BB70200D57BB9 /* PostGridView.swift */; };
 		AAC062E22C7D1B2C00D57BB9 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062E12C7D1B2C00D57BB9 /* ProfileHeaderView.swift */; };
+		AAC062E42C7D216500D57BB9 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062E32C7D216500D57BB9 /* UploadPostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		AAC062DD2C7B7EA200D57BB9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		AAC062DF2C7BB70200D57BB9 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		AAC062E12C7D1B2C00D57BB9 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		AAC062E32C7D216500D57BB9 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 		AA8617502C66A7A300712E27 /* UploadPost */ = {
 			isa = PBXGroup;
 			children = (
+				AAC062E32C7D216500D57BB9 /* UploadPostView.swift */,
 			);
 			path = UploadPost;
 			sourceTree = "<group>";
@@ -413,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA8617652C66BD0F00712E27 /* FeedCell.swift in Sources */,
+				AAC062E42C7D216500D57BB9 /* UploadPostView.swift in Sources */,
 				AA8617262C66A61300712E27 /* ContentView.swift in Sources */,
 				AA86175E2C66AB5000712E27 /* ProfileView.swift in Sources */,
 				AAC062CE2C79386000D57BB9 /* LoginView.swift in Sources */,
