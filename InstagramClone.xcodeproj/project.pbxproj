@@ -32,6 +32,7 @@
 		AAC062E02C7BB70200D57BB9 /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062DF2C7BB70200D57BB9 /* PostGridView.swift */; };
 		AAC062E22C7D1B2C00D57BB9 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062E12C7D1B2C00D57BB9 /* ProfileHeaderView.swift */; };
 		AAC062E42C7D216500D57BB9 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062E32C7D216500D57BB9 /* UploadPostView.swift */; };
+		AAC062E62C7D25EE00D57BB9 /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC062E52C7D25EE00D57BB9 /* UploadPostViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		AAC062DF2C7BB70200D57BB9 /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		AAC062E12C7D1B2C00D57BB9 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		AAC062E32C7D216500D57BB9 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
+		AAC062E52C7D25EE00D57BB9 /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				AAC062E32C7D216500D57BB9 /* UploadPostView.swift */,
+				AAC062E52C7D25EE00D57BB9 /* UploadPostViewModel.swift */,
 			);
 			path = UploadPost;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 				AAC062D42C7A6F0E00D57BB9 /* CreateUsernameView.swift in Sources */,
 				AAC062E02C7BB70200D57BB9 /* PostGridView.swift in Sources */,
 				AA8617672C66C92900712E27 /* SearchView.swift in Sources */,
+				AAC062E62C7D25EE00D57BB9 /* UploadPostViewModel.swift in Sources */,
 				AAC062E22C7D1B2C00D57BB9 /* ProfileHeaderView.swift in Sources */,
 				AAC062DA2C7B23A800D57BB9 /* User.swift in Sources */,
 				AA8617612C66B66D00712E27 /* UserStatView.swift in Sources */,
